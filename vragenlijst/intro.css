@@ -1,11 +1,38 @@
-header {
-    font-family: calvino grande;
+/* header */
+section {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    margin-top: 1.7rem;
+
+    width: auto;
+    height: auto;
 }
 
+header {
+    font-family: calvino grande;
+    font-size: 1.2rem;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+
+.quit {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+
+
+
+/* middelste stuk text */
 .intro-article {
     position: absolute;
     left: 50%;
-    bottom: 50%;
+    bottom: 56%;
     transform: translate(-50%);
     width: 18.625rem;
 
@@ -14,6 +41,7 @@ header {
     line-height: 140%;
 }
 
+/* onderste stuk text */
 .disclaimer-article {
     position: absolute;
     left: 50%;
@@ -28,22 +56,30 @@ header {
     line-height: 137.5%;
 }
 
+/* knop */
 .arrow {
     color: white;
-    outline: 1px solid white;
-    background: none;
+    outline: 1px solid #555555;
 
     padding: 0.8rem 0.9rem;
     border-radius: 9999rem;
 
-    border: none;
-
     /* positioneren */
     position: absolute;
     left: 50%;
-    bottom: 2rem;
+    bottom: 2.5rem;
     transform: translate(-50%);  
     z-index: 1; 
 
     cursor: pointer; 
+}
+
+.redmesh {
+    position: absolute;
+    top: 0;
+    left: -10rem;
+
+    filter: blur(5rem);
+    scale: 130%;
+    z-index: -1;
 }
