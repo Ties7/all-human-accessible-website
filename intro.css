@@ -57,19 +57,22 @@ h1 {
 }
 
 /* knop */
-.arrow {
-    color: white;
-    outline: 1px solid #555555;
-
-    padding: 0.8rem 0.9rem;
-    border-radius: 9999rem;
-
+.links {
     /* positioneren */
     position: absolute;
     left: 50%;
     bottom: 2.5rem;
     transform: translate(-50%);  
     z-index: 1; 
+    width: max-content;
+}
+
+.arrow {
+    color: white;
+    outline: 1px solid #555555;
+
+    padding: 0.8rem 0.9rem;
+    border-radius: 9999rem;
 
     cursor: pointer; 
 }
