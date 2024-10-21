@@ -34,11 +34,40 @@ h1 {
     left: 50%;
     bottom: 75%;
     transform: translate(-50%);
-    width: 18.625rem;
+    width: 18rem;
 
     text-align: center;
     font-size: 1.25rem;
     line-height: 140%;
+}
+
+/* buttons */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.buttons button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+
+    /* gap */
+    margin: 0.5em; 
+
+    outline: 1px solid #555555;
+    padding: 0.8rem 0.9rem;
+    border-radius: 9999rem;
+
+    /* maakt border width gelijk */
+    width: 15rem;
 }
 
 /* knop */
@@ -54,20 +83,36 @@ h1 {
 
     color: white;
     outline: 1px solid #555555;
-    padding: 0.8rem 0.9rem;
+    padding: 0.8rem 1.4rem;
     border-radius: 9999rem;
     text-decoration: none;
     cursor: pointer; 
 
-    margin-right: 2rem;
+    margin-right: 7rem;
 }
 
 .overslaan {
 
     color: white;
     outline: 1px solid #555555;
-    padding: 0.8rem 0.9rem;
+    padding: 0.8rem 1.4rem;
     border-radius: 9999rem;
     text-decoration: none;
     cursor: pointer; 
+}
+
+/* redmesh */
+.redmesh {
+    position: absolute;
+    bottom: 0;
+    right: -8rem;
+
+    filter: blur(5rem);
+    scale: 130%;
+    z-index: -1;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
 }

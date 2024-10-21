@@ -71,12 +71,13 @@ h1 {
     color: white;
     outline: 1px solid #555555;
 
-    padding: 0.8rem 0.9rem;
+    padding: 1rem 1rem;
     border-radius: 9999rem;
 
     cursor: pointer; 
 }
 
+/* redmesh */
 .redmesh {
     position: absolute;
     top: 0;
