@@ -32,7 +32,7 @@ h1 {
 .intro-article {
     position: absolute;
     left: 50%;
-    bottom: 75%;
+    top: 12%;
     transform: translate(-50%);
     width: 18rem;
 
