@@ -13,7 +13,8 @@ De onboarding Readme vind je hier: https://github.com/Ties7/the-client-website/b
 
 ## Beschrijving
 
-Hier staat de website: 
+Hier staat de website: https://ties7.github.io/all-human-accessible-website/vragenlijst/intro.html
+(bekijk de website in inspect mode of telefoon of maak je desktop scherm horizontaal kleiner aangezien hij nog alleen voor mobile grootte is gemaakt)
 
 Dit is hoe het er op mobile uit ziet:
 ![image](https://github.com/user-attachments/assets/7960978c-35be-4644-9c0c-45aaa4af43b0)
