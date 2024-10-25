@@ -13,7 +13,8 @@ De onboarding Readme vind je hier: https://github.com/Ties7/the-client-website/b
 
 ## Beschrijving
 
-Hier staat de website: 
+Hier staat de website: https://ties7.github.io/all-human-accessible-website/vragenlijst/intro.html
+(bekijk de website in inspect mode of telefoon of maak je desktop scherm horizontaal kleiner aangezien hij nog alleen voor mobile grootte is gemaakt)
 
 Dit is hoe het er op mobile uit ziet:
 ![image](https://github.com/user-attachments/assets/7960978c-35be-4644-9c0c-45aaa4af43b0)
@@ -31,7 +32,7 @@ Dit is hoe het er op mobile uit ziet:
 De website is gebouwd met html, css en javascript.
 
 ### HTML
-De header wat bestaat uit de h1, quit icon en progressiebar bestaat uit de volgende html 
+De header wat bestaat uit de h1, quit icon en progressiebar bestaat uit de volgende html:
 ```
     <section>
         <header>
@@ -42,8 +43,8 @@ De header wat bestaat uit de h1, quit icon en progressiebar bestaat uit de volge
     </section>
 ```
 De html wordt wellicht nog iets aangepast aangezien hij nog niet responsive is.
------------------------------------------------------------------------------------------------------------------------------------------------------
-Buttons/antwoord geven
+
+Buttons/antwoord geven:
 ```
     <div class="buttons">
         <a href="vraag2.html"><button id="verpletterend">Verpletterend</button></a>
@@ -56,7 +57,7 @@ Buttons/antwoord geven
 Ik gebruik hier een button in een a, aangezien de pagina wel doorgelinkt moet worden maar uiteindelijk wel de gegeven antwoorden opgeslagen moeten worden. Wellicht dat dit beter kan en dat zal ik de aankomende tijd nog uitzoeken en daarna weer verwerken/aanpassen in de Readme.
 
 ### CSS
-Voor de buttons die om en om infaden heb ik de volgende css gebruikt.
+Voor de buttons die om en om infaden heb ik de volgende css gebruikt:
 ```
 .buttons button {
     opacity: 0;
@@ -75,7 +76,7 @@ De ```.buttons button``` roept de button in de groep/class buttons aan. Door de 
 De ```@keyframes fadeIn``` zegt dat het een animatie is wat in dit geval een fadeIn is. De animatie bepaalt wat er gebeurt tijdens het verloop van de animatie van begin tot eind. ```opacity: 1;``` zorgt ervoor dat het element volledig zichtbaar is aan het einde van de animatie. ```transform: translateY(0);``` zorgt ervoor dat het element weer op zijn oorspronkelijke verticale positie staat.
 
 ### Javascript
-De javascript achter de fadeIn animatie is het volgende.
+De javascript achter de fadeIn animatie is het volgende:
 ```
 document.addEventListener("DOMContentLoaded", () => {
     const buttons = document.querySelectorAll(".buttons button");
