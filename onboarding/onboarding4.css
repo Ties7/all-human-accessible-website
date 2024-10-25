@@ -1,0 +1,100 @@
+/* page-load animation */
+body {
+    overflow: hidden;
+}
+
+header {
+    font-family: calvino grande;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%);
+    width: 20.125rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2em;
+    font-family: calvino grande;
+
+    position: absolute;
+    left: 50%;
+    top: 2em;
+    transform: translate(-50%);
+    width: 20.125rem;
+}
+
+.task-article {
+    font-family: figtree;
+}
+
+/* button arrow */
+.arrow {
+    color: white;
+    outline: 1px solid white;
+    background: none;
+
+    padding: 0.8rem 0.9rem;
+    border-radius: 9999rem;
+
+    border: none;
+}
+
+.button {
+    /* positioneren */
+    position: absolute;
+    left: 50%;
+    bottom: 3rem;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.left {
+    margin-right: 0.7em;
+}
+
+/* progressionbar */
+.progressionbar {
+    position: absolute;
+    left: 50%;
+    bottom: 80%;
+    transform: translate(-50%);
+}
+
+/* layout responsive voor telefoon */
+@media only screen and (max-width: 600px) {
+    .yellowmesh {
+        left: 10%;
+        bottom: 10%;
+    }
+}
+
+
+/* yellowmeshh */
+.yellowmesh {
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+    transform: translate(-50%);
+
+    filter: blur(10em);
+    
+    z-index: -1;
+}
+
+/* yellowmesh fade-in */
+.yellowmesh {
+    opacity: 0.8;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+}

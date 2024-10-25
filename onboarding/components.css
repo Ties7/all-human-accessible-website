@@ -1,0 +1,46 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@font-face {
+    font-family: 'Calvino Grande';
+    src: url(fonts/Calvino-Grande-Variable-trial.ttf);    
+}
+
+/* zet padding van outer naar inner padding */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Figtree;
+    background-color: #111;
+    color: white;
+    
+    margin: 0;
+}
+
+.btn {
+    color: white;
+    outline: 1px solid white;
+    background: none;
+
+    font-size: 1rem;
+    padding: 0.6rem 1.4rem;
+    border-radius: 9999rem;
+
+    border: none;
+
+    text-decoration: none;
+}
+
+
+.meshblue {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+    width: 100%;
+    overflow: hidden;
+    opacity: 50%;
+}

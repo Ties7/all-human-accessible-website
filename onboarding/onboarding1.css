@@ -1,0 +1,67 @@
+/* page-load animation */
+body {
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+/* parent container van img */
+.task-header {
+    position: relative;
+
+    width: 100vw;
+    height: 32rem;
+
+    margin-top: 2.5rem;
+    overflow: hidden;
+}
+
+/* img child */
+.task-header img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+
+    height: 100%;
+    width: auto;
+}
+
+/* lap tekst */
+.task-article {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 6.3em;
+    
+    width: 20em;
+}
+
+/* button 'Starten' */
+.task-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    transform: translate(-50%);  
+    z-index: 1; 
+
+    cursor: pointer; 
+}
+
+/* layout responsive voor telefoon */
+@media only screen and (max-width: 600px) {
+    .task-header {
+        margin-top: 8rem;
+        height: 24rem;
+    }
+
+    .task-header > img {
+        left: -8rem;
+        transform: none;
+    }
+
+    .task-article {
+        position: static;
+        transform: none;
+        padding-left: 1.3rem;
+    }
+}
