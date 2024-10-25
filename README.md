@@ -42,8 +42,8 @@ De header wat bestaat uit de h1, quit icon en progressiebar bestaat uit de volge
         <img class="progressionbar" src="/assets/progressionbar2.svg" alt="progressionbar">
     </section>
 ```
-**De html wordt wellicht nog iets aangepast aangezien hij nog niet responsive is.**
------------------------------------------------------------------------------------------------------------------------------------------------------
+De html wordt wellicht nog iets aangepast aangezien hij nog niet responsive is.
+
 Buttons/antwoord geven
 ```
     <div class="buttons">
